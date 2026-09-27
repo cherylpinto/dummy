@@ -5,3 +5,7 @@ export function getCurrentUser() {
     name:'Alice'
     };
 }
+
+export function getUserRole(user) {
+    return user.profile.role;
+}
